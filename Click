@@ -13,12 +13,12 @@ local button = Instance.new("TextButton")
 button.Text = "Bật Auto Click"
 button.Size = UDim2.new(1, -20, 1, -20)
 button.Position = UDim2.new(0, 10, 0, 10)
-button.BackgroundColor3 = Color3.fromRGB(255, 255, 0) -- This changes the button color to yellow
+button.BackgroundColor3 = Color3.new(1, 1, 1)
 button.BorderColor3 = Color3.new(0, 0, 0)
 button.BorderSizePixel = 2
-button.Font = Enum.Font.SourceSansBold -- This makes the font bold
+button.Font = Enum.Font.SourceSans
 button.TextColor3 = Color3.new(0, 0, 0)
-button.TextSize = 20 -- This increases the font size
+button.TextSize = 16
 button.Parent = frame
 
 local activated = false
